@@ -14,3 +14,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=klimtlte \
     PRODUCT_DEVICE=klimtlte \
     TARGET_DEVICE=klimtlte \
+    BUILD_FINGERPRINT="samsung/klimtltexx/klimtlte:4.4.2/KOT49H/T705XXU1ANG2:user/release-keys" \
+    PRIVATE_BUILD_DESC="klimtltexx-user 4.4.2 KOT49H T705XXU1ANG2 release-keys"

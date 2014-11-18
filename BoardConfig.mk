@@ -148,7 +148,8 @@ BOARD_SEPOLICY_UNION := \
     mediaserver.te \
     surfaceflinger.te \
     samsung_media.te \
-    system.te
+    system.te \
+    rild.te
 
 # SurfaceFlinger
 BOARD_USES_SYNC_MODE_FOR_MEDIA := true
@@ -160,6 +161,9 @@ BOARD_MODEM_TYPE := xmm6360
 
 # RIL Debug
 BOARD_RIL_CLASS := ../../../device/samsung/klimtlte/ril
+
+# Radio
+ro.radio.noril=yes
 
 # Webkit
 ENABLE_WEBGL := true

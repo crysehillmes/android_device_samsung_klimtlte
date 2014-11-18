@@ -26,15 +26,13 @@ ro.hwui.text_large_cache_height=1024
 # USB
 persist.sys.usb.config=mtp
 
-# Radio
-ro.radio.noril=yes
 
 # Randomly from stock
-ro.sec.fle.encryption=true
+ro.hdcp2.rx=tz
 ro.secwvk=220
+ro.adb.qemud=1
+ro.sec.fle.encryption=true
 ro.securestorage.support=true
-rild.libpath=/system/lib/libsec-ril.so
-rild.libargs=-d /dev/ttys0
 
 # Wifi
 wifi.interface=wlan0
