@@ -158,6 +158,9 @@ BOARD_MOBILEDATA_INTERFACE_NAME := "rmnet0"
 BOARD_PROVIDES_LIBRIL := true
 BOARD_MODEM_TYPE := xmm6360
 
+# RIL Debug
+BOARD_RIL_CLASS := ../../../device/samsung/klimtlte/ril
+
 # Webkit
 ENABLE_WEBGL := true
 
