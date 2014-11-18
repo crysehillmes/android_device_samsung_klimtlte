@@ -36,11 +36,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- * RIL customization for Note 3 Exynos devices
+ * RIL customization for Tab s Exynos devices
  *
  * {@hide}
  */
-public class Ha3gRIL extends RIL implements CommandsInterface {
+public class klimtlte extends RIL implements CommandsInterface {
 
     private static final int RIL_REQUEST_DIAL_EMERGENCY = 10016;
     private static final int RIL_UNSOL_RESPONSE_IMS_NETWORK_STATE_CHANGED = 1036;
@@ -49,7 +49,7 @@ public class Ha3gRIL extends RIL implements CommandsInterface {
     private static final int RIL_UNSOL_WB_AMR_STATE = 11017;
     private static final int RIL_UNSOL_RESPONSE_HANDOVER = 11021;
 
-    public Ha3gRIL(Context context, int networkMode, int cdmaSubscription) {
+    public klimtlte(Context context, int networkMode, int cdmaSubscription) {
         super(context, networkMode, cdmaSubscription);
         mQANElements = 6;
     }
