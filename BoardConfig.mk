@@ -148,8 +148,8 @@ BOARD_SEPOLICY_UNION := \
     mediaserver.te \
     surfaceflinger.te \
     samsung_media.te \
-    system.te \
-    rild.te
+    system.te
+
 
 # SurfaceFlinger
 BOARD_USES_SYNC_MODE_FOR_MEDIA := true
