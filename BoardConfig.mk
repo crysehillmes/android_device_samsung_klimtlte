@@ -55,8 +55,8 @@ COMMON_GLOBAL_CFLAGS += -DFORCE_SCREENSHOT_CPU_PATH
 # Kernel
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
-TARGET_KERNEL_CONFIG := cyanogenmod_klimtlte_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/chagallwifi
+TARGET_KERNEL_CONFIG := cyanogenmod_klimttd_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/klimtlte
 
 #TARGET_PREBUILT_KERNEL := device/samsung/klimtlte/kernel
 
@@ -133,22 +133,22 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 BOARD_USES_SCALER := true
 
 # SELinux
-BOARD_SEPOLICY_DIRS := \
-    device/samsung/klimtlte/sepolicy
+# BOARD_SEPOLICY_DIRS := \
+#     device/samsung/klimtlte/sepolicy
 
-BOARD_SEPOLICY_UNION := \
-    file_contexts \
-    genfs_contexts \
-    adbd.te \
-    app.te \
-    device.te \
-    domain.te \
-    gpsd.te \
-    file.te \
-    mediaserver.te \
-    surfaceflinger.te \
-    samsung_media.te \
-    system.te
+# BOARD_SEPOLICY_UNION := \
+#     file_contexts \
+#     genfs_contexts \
+#     adbd.te \
+#     app.te \
+#     device.te \
+#     domain.te \
+#     gpsd.te \
+#     file.te \
+#     mediaserver.te \
+#     surfaceflinger.te \
+#     samsung_media.te \
+#     system.te
 
 
 # SurfaceFlinger

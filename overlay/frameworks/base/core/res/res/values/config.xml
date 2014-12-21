@@ -128,7 +128,7 @@
     <bool name="config_enableWifiDisplay">true</bool>
 
     <!-- Enable flashlight -->
-    <bool name="config_enableTorch">true</bool>
+    <!--bool name="config_enableTorch">true</bool-->
 
     <!-- Control the behavior when the user long presses the home button.
             0 - Nothing
@@ -316,11 +316,11 @@
          Bottom   Top + 400
          Right    Display Width - 100
     -->
-    <integer-array name="config_smartCoverWindowCoords">
+    <!--integer-array name="config_smartCoverWindowCoords">
         <item>30</item>
         <item>44</item>
         <item>450</item>
         <item>1036</item>
-    </integer-array>
+    </integer-array-->
 
 </resources>
